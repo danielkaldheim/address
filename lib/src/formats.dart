@@ -17,6 +17,7 @@ import 'package:address/src/formats/ca.dart';
 import 'package:address/src/formats/es.dart';
 import 'package:address/src/formats/fr.dart';
 import 'package:address/src/formats/it.dart';
+import 'package:address/src/formats/no.dart';
 import 'package:address/src/formats/pl.dart';
 import 'package:address/src/formats/unknown.dart';
 import 'package:address/src/formats/us.dart';
@@ -29,5 +30,6 @@ final addressFormats = {
   'IT': ItAddressFormat(),
   'PL': PlAddressFormat(),
   'US': UsAddressFormat(),
+  'NO': NoAddressFormat(),
   'XX': UnknownAddressFormat(),
 };

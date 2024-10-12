@@ -117,3 +117,8 @@ const countryUnitedStates = {
   'en': 'United States',
   'pl': 'Stany Zjednoczone',
 };
+
+const countryNorway = {
+  'en': 'Norway',
+  'pl': 'Norwegia',
+};
